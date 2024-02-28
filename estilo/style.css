@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+:root {
+    --cor1:#B33F00;
+    --cor2:#39006B;
+    --cor3:#011126;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+main {
+    max-width: 800px;
+    max-height: 800px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header > h1 {
+    color: white;
+}
+
+header > p {
+    color: white;
+}
